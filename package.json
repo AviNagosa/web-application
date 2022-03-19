@@ -1,0 +1,20 @@
+{
+  "name": "web-application",
+  "version": "1.0.0",
+  "description": "nodejs web application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Avi Nagosa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
